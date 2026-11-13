@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f0">
+  <meta name="description" content="A tiny, funny reminder to notice the little things and tell your wife you appreciate her. Free, no sign-up, no AI required.">
+  <title>The Appreciation Club — Say the nice thing out loud</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="The Appreciation Club home">
+      <span class="brand-mark" aria-hidden="true">♥</span>
+      <span>The Appreciation Club</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#generator">Try it</a>
+      <a href="#tiny-reminders">Tiny reminders</a>
+      <a href="#field-guide">Field guide</a>
+    </nav>
+    <a class="header-cta" href="#generator">Find the words <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="sparkle">✳</span> A small club for husbands with big hearts</div>
+        <h1>Say the nice thing <em>out loud.</em></h1>
+        <p class="hero-lede">“You know I love you, right?” is lovely. But every now and then, perhaps attach a few actual words to it.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#generator">Help me say it <span aria-hidden="true">→</span></a>
+          <span class="micro-note">Free. No sign-up. No grand speeches required.</span>
+        </div>
+        <div class="social-proof"><span class="avatar-stack" aria-hidden="true"><i>☺</i><i>♡</i><i>✿</i></span><span>For the everyday moments that deserve a little more appreciation.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a couple sharing a happy moment">
+        <div class="art-sun"></div>
+        <div class="art-note note-one">I noticed. ♥</div>
+        <div class="art-note note-two">10/10 human</div>
+        <img src="assets/couple.svg" alt="A cheerful illustrated couple sitting together, smiling and holding hands">
+        <div class="art-caption">Romance, but make it real life.</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Club motto">
+      <div class="ticker-track"><span>NOTICE THE LITTLE THINGS</span><b>✳</b><span>APPRECIATE HER OUT LOUD</span><b>✳</b><span>LESS “K.” MORE “THANK YOU.”</span><b>✳</b><span>NOTICE THE LITTLE THINGS</span><b>✳</b><span>APPRECIATE HER OUT LOUD</span><b>✳</b></div>
+    </section>
+
+    <section class="generator-section section-wrap" id="generator">
+      <div class="section-heading">
+        <div class="eyebrow">THE MAIN EVENT <span class="sparkle">✳</span></div>
+        <h2>So, what did she do?</h2>
+        <p>Tell us the moment. We'll help you find a few words that sound like <strong>you</strong> — not a greeting card that got promoted to management.</p>
+      </div>
+
+      <div class="generator-card">
+        <div class="generator-form">
+          <label class="field-label" for="situation">The situation</label>
+          <textarea id="situation" rows="3" maxlength="500" placeholder="She handled a chaotic day, made my favourite dinner, encouraged me before a big meeting…"></textarea>
+          <div class="char-count"><span id="char-count">0</span>/500</div>
+
+          <div class="field-label mood-label">Pick the vibe</div>
+          <div class="tone-options" role="group" aria-label="Choose a message tone">
+            <button class="tone-option is-selected" type="button" data-tone="warm" aria-pressed="true"><span>♡</span> Warm & sweet</button>
+            <button class="tone-option" type="button" data-tone="playful" aria-pressed="false"><span>☺</span> Playful</button>
+            <button class="tone-option" type="button" data-tone="romantic" aria-pressed="false"><span>✦</span> A little romantic</button>
+            <button class="tone-option" type="button" data-tone="proud" aria-pressed="false"><span>✊</span> Proud of her</button>
+          </div>
+          <div class="quick-picks">
+            <span class="quick-picks-label">Need a starting point?</span>
+            <button type="button" class="text-chip" data-prompt="She had a long day and still made time for everyone.">Long day</button>
+            <button type="button" class="text-chip" data-prompt="She cooked something lovely for us.">Made dinner</button>
+            <button type="button" class="text-chip" data-prompt="She achieved something she has been working hard for.">Big win</button>
+            <button type="button" class="text-chip" data-prompt="She made me laugh when I really needed it.">Made me laugh</button>
+          </div>
+          <button class="button button-primary generate-button" id="generate" type="button">Find my words <span aria-hidden="true">✳</span></button>
+          <p class="privacy-note"><span aria-hidden="true">🔒</span> Your words stay in this browser. Nothing is sent anywhere.</p>
+        </div>
+
+        <div class="results-panel" id="results" aria-live="polite" aria-atomic="false">
+          <div class="results-empty" id="empty-state">
+            <img src="assets/love-note.svg" alt="" aria-hidden="true">
+            <h3>Your words are waiting.</h3>
+            <p>Give us a little context, pick a vibe, and we'll offer three ways to say it.</p>
+            <span class="empty-doodle" aria-hidden="true">✿</span>
+          </div>
+          <div class="results-content" id="results-content" hidden>
+            <div class="results-title-row">
+              <div><div class="eyebrow">THREE WAYS TO SAY IT</div><h3>Pick the one that feels like you.</h3></div>
+              <span class="result-stamp">Human-ish<br>approved ✓</span>
+            </div>
+            <div id="suggestions" class="suggestions"></div>
+            <p class="results-footnote">Tweak it. Make it yours. The best compliment is the one you actually mean.</p>
+            <button class="button button-outline" id="regenerate" type="button">Give me three more ↻</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="moment-strip section-wrap" id="tiny-reminders">
+      <div class="moment-intro">
+        <div class="eyebrow">A FRIENDLY NUDGE</div>
+        <h2>Love lives in the little stuff.</h2>
+        <p>Not every moment needs a violin soundtrack. Sometimes “I saw how much effort that took” is the whole orchestra.</p>
+        <button class="button button-dark" id="random-idea" type="button">Give me a tiny idea ↗</button>
+      </div>
+      <div class="moment-card">
+        <img src="assets/coffee.svg" alt="Playful illustration of a coffee cup with a heart on it">
+        <div class="moment-card-content">
+          <span class="moment-tag">TODAY'S LITTLE IDEA</span>
+          <p id="daily-idea">Notice one thing she did today that might usually go unmentioned. Tell her you noticed.</p>
+          <span class="idea-counter" id="idea-counter">A small thing. A big difference.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="field-guide section-wrap" id="field-guide">
+      <div class="section-heading">
+        <div class="eyebrow">THE HUSBAND FIELD GUIDE</div>
+        <h2>A few phrases to retire.<br><em>A few to put to work.</em></h2>
+        <p>We say this with love. And just a tiny bit of concern.</p>
+      </div>
+      <div class="phrase-grid">
+        <article class="phrase-card phrase-no">
+          <div class="phrase-top"><span class="phrase-icon">🙈</span><span class="phrase-label">MAYBE DON'T</span></div>
+          <p class="bad-phrase">“You know I appreciate you.”</p>
+          <span class="phrase-divider">↓ A gentle upgrade ↓</span>
+          <p class="good-phrase">“I noticed how much you handled today. Thank you. I don't want that to go unnoticed.”</p>
+        </article>
+        <article class="phrase-card phrase-yes">
+          <div class="phrase-top"><span class="phrase-icon">💛</span><span class="phrase-label">TRY THIS</span></div>
+          <p class="bad-phrase">“Nice.”</p>
+          <span class="phrase-divider">↓ Add 4% more effort ↓</span>
+          <p class="good-phrase">“You look lovely. I was going to say it earlier, but apparently my brain was buffering.”</p>
+        </article>
+      </div>
+      <div class="field-guide-bottom">
+        <img src="assets/flowers.svg" alt="A cheerful hand-drawn bunch of flowers">
+        <p><strong>Club rule #1:</strong> Don't just copy and paste. Mean it. Add the detail only you would know. And maybe put the phone down after you send it.</p>
+      </div>
+    </section>
+
+    <section class="closing-cta">
+      <div class="closing-art"><img src="assets/hearts.svg" alt="" aria-hidden="true"></div>
+      <div class="closing-copy">
+        <div class="eyebrow">YOU'VE GOT THIS, CHAMP</div>
+        <h2>A little appreciation<br>goes a <em>long way.</em></h2>
+        <p>No perfect words needed. Just pay attention, be sincere, and say the nice thing while it's still in your head.</p>
+        <a class="button button-primary" href="#generator">One more time. Let's go. ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#"><span class="brand-mark" aria-hidden="true">♥</span><span>The Appreciation Club</span></a>
+    <p class="footer-disclaimer"><strong>Just a bit of fun!</strong> This is a funny, light-hearted webpage only. It is not intended to hurt anyone's sentiments and should not be used for any serious purpose. Real feelings, real conversations and genuine effort are always better than a generated line. ❤️</p>
+    <div class="footer-bottom"><span>Made with a smile, and a reminder to be kind.</span><a href="#main">Back to top ↑</a></div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

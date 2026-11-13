@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470" role="img" aria-labelledby="title desc">
+<title id="title">A happy couple together</title><desc id="desc">A playful flat vector illustration of a smiling couple sitting close together and holding hands.</desc>
+<path d="M0 410c95-25 173-6 268-16s219-29 332 6v70H0z" fill="#e6cbb7"/>
+<ellipse cx="305" cy="415" rx="210" ry="23" fill="#d4b6a0" opacity=".5"/>
+<!-- woman hair -->
+<path d="M142 187c-9-73 31-125 95-125 68 0 99 54 87 132l-19 120-143-1z" fill="#49352f"/>
+<path d="M158 177c-1-57 26-96 79-96 49 0 74 35 70 91l-6 67-137-1z" fill="#f2b7a0"/>
+<path d="M147 171c-3-62 30-112 91-112 47 0 78 31 85 83-29-7-48-26-58-49-20 34-63 54-118 55z" fill="#49352f"/>
+<path d="M148 154c-23 62-12 116 12 147l13-91z" fill="#49352f"/>
+<path d="M286 142c29 47 30 106 5 149l-10-90z" fill="#49352f"/>
+<path d="M177 198c10-9 22-9 31 0" stroke="#49352f" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M238 198c10-9 22-9 31 0" stroke="#49352f" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M208 226q16 17 32 0" stroke="#b85e55" stroke-width="4" stroke-linecap="round" fill="none"/>
+<circle cx="167" cy="218" r="11" fill="#e98d84" opacity=".65"/><circle cx="274" cy="218" r="11" fill="#e98d84" opacity=".65"/>
+<!-- woman's body -->
+<path d="M127 331c7-57 43-86 99-86s93 30 101 86l-13 81H133z" fill="#e87965"/>
+<path d="M190 253l38 43 36-43c24 9 43 26 54 54l-37 36H164l-37-36c13-28 34-45 63-54z" fill="#f7d7bd"/>
+<path d="M164 332l-18 80h-27l13-85zM290 327l18 85h27l-13-85z" fill="#d95f4b"/>
+<!-- man hair and face -->
+<path d="M315 173c-4-62 34-104 93-104 61 0 93 46 85 108l-13 115H329z" fill="#3b3431"/>
+<path d="M337 165c1-49 26-79 70-79 49 0 70 34 67 81l-8 74H340z" fill="#c9855f"/>
+<path d="M333 143c7-58 44-87 88-87 41 0 70 22 79 69-31 4-53-8-70-31-22 25-56 40-97 40z" fill="#3b3431"/>
+<path d="M351 190c9-8 20-8 29 0M414 190c9-8 20-8 29 0" stroke="#44332d" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M382 216q16 14 32 0" stroke="#7c3f35" stroke-width="4" stroke-linecap="round" fill="none"/>
+<circle cx="344" cy="210" r="10" fill="#e98d84" opacity=".6"/><circle cx="458" cy="210" r="10" fill="#e98d84" opacity=".6"/>
+<path d="M306 326c9-55 44-82 105-82 59 0 96 31 105 87l-14 82H316z" fill="#789a83"/>
+<path d="M374 250l37 42 37-42c27 11 46 29 57 58l-41 36H357l-40-36c12-28 30-47 57-58z" fill="#f0c5a9"/>
+<!-- arms / hands -->
+<path d="M290 305c27 12 51 27 70 48 11 12 5 27-8 28-9 1-20-12-31-20l-43-28z" fill="#f2b7a0"/>
+<path d="M319 304c-22 19-40 33-62 48-14 9-28-1-24-15 2-7 15-16 28-25l34-27z" fill="#c9855f"/>
+<path d="M280 335q16-12 30-1" stroke="#8d5946" stroke-width="4" stroke-linecap="round" fill="none"/>
+<!-- tiny hearts -->
+<path d="M303 97c-10-13-29 1-18 15l18 17 18-17c11-14-8-28-18-15z" fill="#ed765f"/>
+<path d="M91 118c-7-9-20 1-12 11l12 11 12-11c8-10-5-20-12-11z" fill="#f3c95d"/>
+<path d="M510 255c-6-8-18 1-10 10l10 10 10-10c8-9-4-18-10-10z" fill="#ed765f"/>
+<path d="M76 332l7-15 7 15 15 7-15 7-7 15-7-15-15-7z" fill="#f3c95d" opacity=".9"/>
+</svg>

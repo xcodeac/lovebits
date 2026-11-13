@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 150" role="img" aria-label="A cheerful bunch of flowers">
+<path d="M75 143q-8-45-35-75M78 143q7-49 36-79M77 142q-1-48 2-78" fill="none" stroke="#789a73" stroke-width="5" stroke-linecap="round"/>
+<path d="M49 96q-26-19-33 1 16 18 33-1zM99 104q27-20 36-1-15 18-36 1zM70 111q-27-17-33 4 17 15 33-4z" fill="#9bb99a"/>
+<g transform="translate(40 47)"><circle r="13" fill="#f5c85e"/><g fill="#ed806b"><ellipse cy="-17" rx="9" ry="13"/><ellipse cy="17" rx="9" ry="13"/><ellipse cx="-17" rx="13" ry="9"/><ellipse cx="17" rx="13" ry="9"/></g><circle r="7" fill="#f5c85e"/></g>
+<g transform="translate(113 43)"><circle r="12" fill="#f5c85e"/><g fill="#e7a8a1"><ellipse cy="-16" rx="9" ry="12"/><ellipse cy="16" rx="9" ry="12"/><ellipse cx="-16" rx="12" ry="9"/><ellipse cx="16" rx="12" ry="9"/></g><circle r="6" fill="#f5c85e"/></g>
+<g transform="translate(80 20)"><circle r="10" fill="#f5c85e"/><g fill="#9bb69a"><ellipse cy="-14" rx="7" ry="10"/><ellipse cy="14" rx="7" ry="10"/><ellipse cx="-14" rx="10" ry="7"/><ellipse cx="14" rx="10" ry="7"/></g><circle r="5" fill="#f5c85e"/></g>
+<path d="M21 131q-7-20 5-26 14 11-5 26zM132 128q-1-21 15-23 8 17-15 23z" fill="#8fae8a"/>
+</svg>

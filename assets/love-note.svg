@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 150" role="img" aria-label="A love note with a heart">
+<path d="M29 26h119a9 9 0 0 1 9 9v81a9 9 0 0 1-9 9H29a9 9 0 0 1-9-9V35a9 9 0 0 1 9-9z" fill="#fffdf9" stroke="#e7cbb9" stroke-width="3"/>
+<path d="M21 37l67 48 68-48" fill="none" stroke="#e7cbb9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90 68c-12-17-35 0-21 17l21 20 21-20c14-17-9-34-21-17z" fill="#ed765f"/>
+<path d="M145 17c-6-8-18 1-10 10l10 10 10-10c8-9-4-18-10-10z" fill="#f2cb69"/>
+<path d="M26 10l4 9 9 4-9 4-4 9-4-9-9-4 9-4z" fill="#9bb69a"/>
+</svg>

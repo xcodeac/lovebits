@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 190" role="img" aria-label="A smiling coffee cup with a heart">
+<path d="M39 62h126v78c0 22-18 40-40 40H79c-22 0-40-18-40-40z" fill="#fffaf5" stroke="#5c514a" stroke-width="5"/>
+<path d="M165 82h16c22 0 25 40 0 47h-16" fill="none" stroke="#5c514a" stroke-width="8"/>
+<path d="M74 26c-15-18 13-23 1-41M111 27c-15-18 13-23 1-41M145 27c-15-18 13-23 1-41" stroke="#d49c72" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M101 92c-9-13-27 0-16 13l16 15 16-15c11-13-7-26-16-13z" fill="#ed765f"/>
+<path d="M77 143q11 10 22 0M117 143q11 10 22 0" stroke="#5c514a" stroke-width="4" stroke-linecap="round" fill="none"/>
+<path d="M27 170h158" stroke="#d3b6a2" stroke-width="6" stroke-linecap="round"/>
+<path d="M190 31l5 11 11 5-11 5-5 11-5-11-11-5 11-5z" fill="#e7be5e"/>
+<circle cx="30" cy="38" r="8" fill="#a3b89c"/>
+</svg>
