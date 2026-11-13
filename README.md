@@ -1,6 +1,6 @@
-# The Appreciation Club
+# LoveBits - Your daily Appreciation helper
 
-A small, funny, mobile-friendly static website that helps husbands find natural ways to appreciate their wives.
+A small, funny, mobile-friendly static website that helps husbands find natural ways to appreciate their wives 😍
 
 **Live demo:** Add your GitHub Pages URL here after deployment.
 
